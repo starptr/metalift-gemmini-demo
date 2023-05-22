@@ -1,0 +1,6 @@
+"input size 10,000,000",,
+Acros 10 runs,Mean (s),Stddev (s)
+C++,1.871,0.005
+Python (derived from C),1.932,0.035
+Pytorch (codegen),1.206,0.021
+Numba (python-C jit),1.229,0.035
